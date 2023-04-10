@@ -80,12 +80,12 @@ span {
 
 /* ------- Home - estilos secciÃ³n Navbar ------- */
 
-.navbar-brand {
-    width: 42%;
-}
-
 .navbar-collapse ul {
     justify-content: flex-end;
+}
+
+.navbar-brand img{
+    width: 40%;
 }
 
 /* ------- Home - estilos secciÃ³n Hero ------- */
@@ -503,4 +503,6 @@ span {
     .row-cols-auto {
         width: 100%;
     }
+
+
 }
