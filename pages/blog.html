@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Contact - Once Natural Wax</title>
+    <title>Blog - Once Natural Wax</title>
     <!-- Agrego iconscout-->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <script src="https://kit.fontawesome.com/ddb4fbf34d.js" crossorigin="anonymous"></script>
@@ -12,10 +12,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <!-- Agrego Favicon-->
-<link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
     <!-- link al archivo de CSS-->
     <link rel="stylesheet" href="../style.css">
+    <!-- link a la biblioteca de animaciones-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
+
 
 <body>
 
@@ -44,13 +48,13 @@
                             <li><a class="dropdown-item" href="./categories.html">Wax</a></li>
                         </ul>
                     <li class="nav-item">
-                        <a class="nav-link" href="./blog.html">Blog</a>
+                        <a class="nav-link active" href="#">Blog</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./about.html">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Contact</a>
+                        <a class="nav-link" href="./contact.html">Contact</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#"><i class="uil uil-shopping-cart"></i></a>
@@ -62,66 +66,80 @@
 
     <!---------------- Diseño Cuerpo ---------------->
     <section class="heroPage text-center">
-        <h2>#ContactUs</h2>
-        <p>LEAVE A MESSAGE, We love to hear from you!</p>
+        <h2>#OurBlog</h2>
+        <p>All about your skin care.</p>
     </section>
 
-    <!---------------- Diseño ContactUs ---------------->
-    <section class="contactUs container-fluid">
-        <div class="contactUsRow row">
-            <div class="contactUsCol col-5">
-                <p>Get In Touch</p>
-                <h3>Visit our office locations or contact us today</h3>
-                <h4>Head Office</h4>
-                <div>
-                    <li>
-                        <p><i class="uil uil-location-point"></i> Hallandale Beach, FL 33009</p>
-                    </li>
-                    <li>
-                        <p><i class="uil uil-envelope-alt"></i> sales-once@oncenaturalwax.com</p>
-                    </li>
-                    <li>
-                        <p><i class="uil uil-phone"></i> +1 (917) 831.4324</p>
-                    </li>
-                </div>
+    <!---------------- Diseño del Blog ---------------->
+    <section class="blog container-fluid p-5">
+        <div class="blogRow row" data-aos="fade-up">
+            <div class="blogCol col-lg-6 d-flex justify-content-center">
+                <img src="../img/blog/blog1.png" alt="100% Natural Wax">
             </div>
-            <div class="contactUsCol col-7">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28691.74341080376!2d-80.15699744315728!3d25.985484941099518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9ab8840e093d1%3A0xcf19e494f19a9e32!2sHallandale%20Beach%2C%20Florida%2033009%2C%20EE.%20UU.!5e0!3m2!1ses!2sar!4v1679597105929!5m2!1ses!2sar"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="blogCol col-lg-6 d-flex flex-column justify-content-center align-content-center p-5">
+                <h3>Why Use 100% Natural Wax?</h3>
+                <h6>March 03, 2023</h6>
+                <p>The verdict is in…Using 100% Natural products is undoubtedly the wisest choice for the skin and for
+                    theenvironment. At Once Natural Wax we pride ourselves on using only the finest and purest...</p>
+                <a href="#">Read More ></a>
+            </div>
+        </div>
+        <div class="blogRow row" data-aos="fade-up">
+            <div class="blogCol col-lg-6 d-flex justify-content-center">
+                <img src="../img/blog/blog2.png" alt="Short Hair Waxing Tips">
+            </div>
+            <div class="blogCol col-lg-6 d-flex flex-column justify-content-center align-content-center p-5">
+                <h3>Short Hair Waxing Tips</h3>
+                <h6>March 16, 2023</h6>
+                <p>Hair that’s considered “too short” to be waxed, usually represents a challenge for the waxing
+                    professional...With Once Natural Wax, your worries are over as our wax will remove even the...</p>
+                <a href="#">Read More ></a>
+            </div>
+        </div>
+        <div class="blogRow row" data-aos="fade-up">
+            <div class="blogCol col-lg-6 d-flex justify-content-center">
+                <img src="../img/blog/blog3.png" alt="Long Hair Waxing Tips">
+            </div>
+            <div class="blogCol col-lg-6 d-flex flex-column justify-content-center align-content-center p-5">
+                <h3>Long Hair Waxing Tips</h3>
+                <h6>March 23, 2023</h6>
+                <p>When the hair is longer than 1/2 inch, it may be considered too long to wax, unless, you’re using
+                    Once Natural Wax! Our 100% natural wax is always the “go...</p>
+                <a href="#">Read More ></a>
+            </div>
+        </div>
+        <div class="blogRow row" data-aos="fade-up">
+            <div class="blogCol col-lg-6 d-flex justify-content-center">
+                <img src="../img/blog/blog4.png" alt="100% Natural Wax">
+            </div>
+            <div class="blogCol col-lg-6 d-flex flex-column justify-content-center align-content-center p-5">
+                <h3>Your wax is breaking or cracking?</h3>
+                <h6>April 02, 2023</h6>
+                <p>Although highly unlikely, when using Once Natural Wax, it could happen for reasons unrelated to the
+                    wax. Like most hard waxes, for the very best results there are important indications...</p>
+                <a href="#">Read More ></a>
+            </div>
+        </div>
+        <div class="blogRow row" data-aos="fade-up">
+            <div class="blogCol col-lg-6 d-flex justify-content-center">
+                <img src="../img/blog/blog5.png" alt="how to wax with natural wax">
+            </div>
+            <div class="blogCol col-lg-6 d-flex flex-column justify-content-center align-content-center p-5">
+                <h3>How to wax natural wax?</h3>
+                <h6>November 14, 2022</h6>
+                <p>The verdict is in…Using 100% Natural products is undoubtedly the wisest choice for the skin and for
+                    theenvironment. At Once Natural Wax we pride ourselves on using only the finest and purest...</p>
+                <a href="#">Learn More ></a>
             </div>
         </div>
 
     </section>
 
-    <!---------------- Diseño form ---------------->
-    <section class="text-center">
-        <h3>Fill Your Information</h3>
-        <p>We will contact you soon!</p>
-    </section>
-    <section class="form container-sm">
-        <div class="formRow g-3 mt-3">
-            <div class="formCol col">
-                <label for="nameInput">Name</label>
-                <input type="text" class="form-control" id="nameInput" placeholder="Your Name">
-            </div>
-
-            <div class="formCol col">
-                <label for="emailInput">e-mail</label>
-                <input type="email" class="form-control" id="emailInput" placeholder="Your e-mail">
-            </div>
-            <div class="formCol col">
-                <a href="#" class="button text-decoration-none">Contact Me</a>
-            </div>
-        </div>
-
-    </section>
 
     <!---------------- Diseño Footer ---------------->
     <footer>
         <section class="footer container-fluid">
-            <div class="row">
+            <div class="row d-flex justify-content-evenly">
                 <div class="footer-col col">
                     <h4>Company</h4>
                     <ul>
@@ -162,7 +180,10 @@
     </footer>
 
 
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
         crossorigin="anonymous"></script>

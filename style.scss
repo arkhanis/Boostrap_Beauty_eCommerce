@@ -78,7 +78,7 @@ span {
     transform: scale(0.9);
 }
 
-/* ------- Home - estilos secciÃ³n Navbar ------- */
+/* ------- Home - estilos seccion Navbar ------- */
 
 .navbar-collapse ul {
     justify-content: flex-end;
@@ -88,7 +88,7 @@ span {
     width: 40%;
 }
 
-/* ------- Home - estilos secciÃ³n Hero ------- */
+/* ------- Home - estilos seccion Hero ------- */
 
 .Hero {
     display: flex;
@@ -103,7 +103,7 @@ span {
     background-position: top 25% right 0;
 }
 
-/* ------- Home - estilos secciÃ³n Benefits ------- */
+/* ------- Home - estilos seccion Benefits ------- */
 
 .benefits .row {
     margin: 0 5px 0 5px;
@@ -141,7 +141,7 @@ span {
     background-color: $bg-second-color;
 }
 
-/* ------- Home - Estilos secciÃ³n Features Products ------- */
+/* ------- Home - Estilos seccion Features Products ------- */
 
 .product .row {
     margin: 0 10px;
@@ -481,6 +481,24 @@ span {
     margin: 0 10px 40px 10px;
 }
 
+
+/*--------------- Blog  ------------------*/
+
+.blogRow{
+    margin: 100px 0px;
+}
+
+.blogCol img{
+    width: 70%;
+    border-radius: 5px;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.blogCol a{
+    text-decoration: none;
+    color: $main-color;
+}
+
 /* ******************* Mobile 768px ********************** */
 
 @media screen and (max-width: 768px) {
@@ -494,6 +512,11 @@ span {
 
     .row-cols-auto {
         width: 80%;
+    }
+
+    .blogCol img{
+        width: 70%;
+        border-radius: 5px;
     }
 }
 
