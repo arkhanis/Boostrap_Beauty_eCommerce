@@ -495,9 +495,9 @@ span {
     display: flex;
 }
 
-.formCol {
-    min-width: 350px;
-    margin: 0 10px 40px 10px;
+form{
+    box-shadow: 2px 6px 100px $bg-second-color;
+    border-radius: 10px;
 }
 
 /*--------------- Blog  ------------------*/
