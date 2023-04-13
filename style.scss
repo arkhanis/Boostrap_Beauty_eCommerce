@@ -337,14 +337,30 @@ span {
     cursor: pointer;
 }
 
+.bannerCol4 a{
+    text-decoration: none;
+    color: $text-second-color;
+}
+
+.bannerCol5 a{
+    text-decoration: none;
+    color: $text-second-color;
+}
+
+.bannerCol6 a{
+    text-decoration: none;
+    color: $text-second-color;
+}
+
 .bannerCol4:hover,
 .bannerCol5:hover,
 .bannerCol6:hover {
+    transform: scale(1.01);
+    transition: all 0.5s ease;
     filter: grayscale(0.1);
     text-shadow: 1px 1px 2px $bg-color, 0 0 1em $bg-color, 0 0 0.2em $bg-color;
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.3);
-    transform: scale(1.01);
-    transition: all 0.45s ease;
+
 }
 
 .footer {
@@ -405,6 +421,8 @@ span {
     color: $text-second-color;
     background-color: $bg-color;
 }
+
+
 
 /*  ----------------- Categories ------------------  */
 
@@ -522,18 +540,10 @@ span {
 
 .aboutUsRow2{
 padding: 40px;
-text-align: center;
 }
 
-.aboutUsCol2 h3{
-    padding: 20px 0px;
-}
 
-.aboutUsCol2 p{
-    padding-top: 40px;
-}
-
-.aboutUsCol2 a{
+.aboutUsCol3 a{
     text-decoration: none;
     color: $main-color;
 }
