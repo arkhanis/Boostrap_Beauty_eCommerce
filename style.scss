@@ -79,14 +79,75 @@ span {
     transform: scale(0.9);
 }
 
-/* ------- Home - estilos seccion Navbar ------- */
+/* ------- Estilos seccion Navbar ------- */
 
 .navbar-collapse ul {
     justify-content: flex-end;
 }
 
 .navbar-brand img {
-    width: 40%;
+    width: 35%;
+}
+
+.nav-item a:hover {
+    color: $main-color;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.navbar {
+    padding: 3rem 2 rem;
+    height: 0rem;
+    min-height: 12vh;
+}
+
+.navbar-toggler {
+    background: $main-color;
+    border: none;
+    padding: 10px 6px;
+}
+
+.navbar-toggler span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border: 1px;
+    background: $bg-color;
+}
+
+.navbar-toggler span + span {
+    margin-top: 4px;
+    width: 18px;
+    margin-left: 4px;
+}
+
+.navbar-toggler span + span + span {
+    width: 10px;
+    margin-left: 10px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 2rem 1.2rem;
+    font-size: 1.1rem;
+    position: relative;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    border-bottom: 3px solid $main-color;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link .active {
+    border-bottom: 3px solid $main-color;
+}
+
+.user:hover {
+    color: $main-color;
+}
+
+.cart:hover {
+    color: $main-color;
 }
 
 /* ------- Home - estilos seccion Hero ------- */
@@ -337,17 +398,17 @@ span {
     cursor: pointer;
 }
 
-.bannerCol4 a{
+.bannerCol4 a {
     text-decoration: none;
     color: $text-second-color;
 }
 
-.bannerCol5 a{
+.bannerCol5 a {
     text-decoration: none;
     color: $text-second-color;
 }
 
-.bannerCol6 a{
+.bannerCol6 a {
     text-decoration: none;
     color: $text-second-color;
 }
@@ -360,7 +421,6 @@ span {
     filter: grayscale(0.1);
     text-shadow: 1px 1px 2px $bg-color, 0 0 1em $bg-color, 0 0 0.2em $bg-color;
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.3);
-
 }
 
 .footer {
@@ -421,8 +481,6 @@ span {
     color: $text-second-color;
     background-color: $bg-color;
 }
-
-
 
 /*  ----------------- Categories ------------------  */
 
@@ -495,7 +553,7 @@ span {
     display: flex;
 }
 
-form{
+form {
     box-shadow: 2px 6px 100px $bg-second-color;
     border-radius: 10px;
 }
@@ -538,12 +596,11 @@ form{
     color: $main-color;
 }
 
-.aboutUsRow2{
-padding: 40px;
+.aboutUsRow2 {
+    padding: 40px;
 }
 
-
-.aboutUsCol3 a{
+.aboutUsCol3 a {
     text-decoration: none;
     color: $main-color;
 }
@@ -568,18 +625,18 @@ padding: 40px;
         border-radius: 5px;
     }
 
-    .aboutUsCol iframe{
+    .aboutUsCol iframe {
         width: 70%;
-        }
+    }
 
-    .aboutUsCol{
+    .aboutUsCol {
         padding: 20px;
         text-align: center;
-        }
+    }
 
-    .aboutUsRow2{
+    .aboutUsRow2 {
         padding: 5px;
-        }
+    }
 }
 
 /* ******************* Mobile 477px ********************** */
@@ -588,5 +645,4 @@ padding: 40px;
     .row-cols-auto {
         width: 100%;
     }
-
 }
