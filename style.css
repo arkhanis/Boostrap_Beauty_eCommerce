@@ -94,7 +94,7 @@ ul {
 }
 
 .navbar-toggler {
-  background: #dea34a;
+  background: #303030;
   border: none;
   padding: 10px 6px;
 }
@@ -119,9 +119,10 @@ ul {
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
-  padding: 2rem 1.2rem;
+  padding: 1.2rem 1.2rem;
   font-size: 1.1rem;
   position: relative;
+  background: rgba(255, 255, 255, 0.8784313725);
 }
 
 .navbar-expand-lg .navbar-nav .nav-link:hover {
@@ -129,7 +130,7 @@ ul {
 }
 
 .navbar-expand-lg .navbar-nav .nav-link .active {
-  border-bottom: 3px solid #dea34a;
+  border-bottom: 10px solid #dea34a;
 }
 
 .user:hover {

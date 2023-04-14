@@ -104,7 +104,7 @@ ul {
 }
 
 .navbar-toggler {
-    background: $main-color;
+    background: $bg-third-color;
     border: none;
     padding: 10px 6px;
 }
@@ -114,7 +114,7 @@ ul {
     width: 22px;
     height: 2px;
     border: 1px;
-    background: $bg-color;
+    background: $text-third-color;
 }
 
 .navbar-toggler span + span {
@@ -129,9 +129,10 @@ ul {
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
-    padding: 2rem 1.2rem;
+    padding: 1.2rem 1.2rem;
     font-size: 1.1rem;
     position: relative;
+    background: #ffffffe0;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link:hover {
@@ -139,7 +140,7 @@ ul {
 }
 
 .navbar-expand-lg .navbar-nav .nav-link .active {
-    border-bottom: 3px solid $main-color;
+    border-bottom: 10px solid $main-color;
 }
 
 .user:hover {
