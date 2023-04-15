@@ -163,7 +163,7 @@ ul {
     width: 100%;
     height: 90vh;
     background-size: cover;
-    background-position: top 25% right 0;
+    background-position: left 50%;
 }
 
 /* ------- Home - estilos seccion Benefits ------- */
@@ -429,7 +429,7 @@ ul {
     padding: 40px 20px;
 }
 
-.footer-col{
+.footer-col {
     display: flex;
     flex-direction: column;
     margin-bottom: 40px;
@@ -495,7 +495,7 @@ ul {
 .heroPage {
     background-image: url("../img/banner/Banner1.png");
     background-position: top;
-    height: 25vh;
+    height: 40vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -504,10 +504,12 @@ ul {
 
 .heroPage h2 {
     color: $text-third-color;
+    text-shadow: 5px 5px 5px $text-color;
 }
 
 .heroPage p {
     color: $text-third-color;
+    text-shadow: 5px 5px 5px $text-color;
 }
 
 .nav-pills {
@@ -562,8 +564,9 @@ ul {
 }
 
 form {
-    box-shadow: 2px 6px 100px $bg-second-color;
+    box-shadow: 2px 6px 50px $bg-second-color;
     border-radius: 10px;
+    border: 1px solid $bg-second-color;
     margin-bottom: 100px;
 }
 
@@ -574,7 +577,7 @@ form {
 }
 
 .blogCol img {
-    width: 70%;
+    width: 75%;
     border-radius: 5px;
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.2);
 }
@@ -590,8 +593,13 @@ form {
     padding: 20px;
 }
 
+.aboutUsRow{
+    margin: 40px 0px;
+}
+
 .aboutUsCol iframe {
-    min-width: 400px;
+    min-width: 350px;
+    align-self: center;
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
 }
@@ -610,7 +618,27 @@ form {
     margin-bottom: 100px;
 }
 
+.aboutUsCol3 iframe {
+    min-width: 400px;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+
+.aboutUsCol2 h4 {
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+
 .aboutUsCol3 a {
+    text-decoration: none;
+    color: $main-color;
+}
+
+.aboutUsRow3 {
+    margin: 100px 10px;
+}
+
+.aboutUsRow3 a {
     text-decoration: none;
     color: $main-color;
 }
@@ -631,23 +659,35 @@ form {
     }
 
     .blogCol img {
-        width: 70%;
+        width: 90%;
         border-radius: 5px;
-    }
-
-    .aboutUsCol iframe {
-        width: 70%;
     }
 
     .aboutUsCol {
         padding: 20px;
-        text-align: center;
     }
 
     .aboutUsRow2 {
         padding: 5px;
     }
+
+    .Hero {
+        background-size: cover;
+        background-position-x: 30%;
+    }
+    
+    .aboutUsCol iframe {
+        width: 430px;
+        height:230px;
+        }
+
+    .aboutUsCol3 iframe {
+    width: 430px;
+    height:230px;
+    }
 }
+
+
 
 /* ******************* Mobile 477px ********************** */
 
