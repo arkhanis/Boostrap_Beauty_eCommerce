@@ -7,6 +7,7 @@ This project is a Beauty eCommerce.
 ### `Features:`
 - Responsive for all devices
 - Build using HTML, CSS, and Boostrap.
+- 5 Pages (Home, Contact, About, Blog and Products)
 
 ## Tecnologies 🚀
 <!-- Icons taken from: https://github.com/hendrasob/badges/blob/master/README.md y https://github.com/alexandresanlim/Badges4-README.md-Profile -->
